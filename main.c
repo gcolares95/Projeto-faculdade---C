@@ -39,13 +39,13 @@ void imprimirCaixas(int *vetCaixas, int size) {
 
 int main(void) {	
 	
-	int totalCaixas;	 				// Total de caixas geradas 
-	int i;    	 						// Para usar no for (Repetição)  
-	int instrucao;		 					// Instrução a ser seguida
-	
-	int caixas[5000 + 1];   			// Vetor das caixas a serem vendidas
-	int caixasInvertido[5000 + 1];	    // Vetor das caixas invertida
-	int caixasInvertidoAux[5000 + 1];   
+    int totalCaixas;	 				// Total de caixas geradas 
+    int i;    	 						// Para usar no for (Repetição)  
+    int instrucao;		 					// Instrução a ser seguida
+
+    int caixas[5000 + 1];   			// Vetor das caixas a serem vendidas
+    int caixasInvertido[5000 + 1];	    // Vetor das caixas invertida
+    int caixasInvertidoAux[5000 + 1];   
     int caixasParaVenda[5000 + 1]; 		// Vetor das caixas para venda
     int caixasAvariadas[5000 + 1];      // Vetor das caixas avariadas
     int caixasAvariadasAux[5000 + 1];      
